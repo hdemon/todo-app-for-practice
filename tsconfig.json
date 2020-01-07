@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  }
+}

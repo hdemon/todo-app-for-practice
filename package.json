@@ -1,0 +1,50 @@
+{
+  "name": "jikkyou",
+  "version": "1.0.0",
+  "dependencies": {
+    "fixpack": "^2.3.1",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-info": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@types/node": "12.12.21",
+    "@types/react": "16.9.16",
+    "@types/react-dom": "16.9.4",
+    "@typescript-eslint/eslint-plugin": "2.12.0",
+    "@typescript-eslint/parser": "2.12.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "6.7.2",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jest": "23.1.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "jest": "24.9.0",
+    "prettier": "1.19.1",
+    "renovate": "19.85.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "3.7.3"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "test": "jest",
+    "build": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
