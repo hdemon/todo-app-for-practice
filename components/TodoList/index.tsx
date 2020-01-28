@@ -13,14 +13,15 @@ type Props = {
 
 const TodoList: React.FC<Props> = ({ items }) => (
   <>
-    {items.map(item => (
-      <TodoItem
-        id={item.id}
-        body={item.body}
-        isDone={item.isDone}
-        setBody={() => {}}
-      />
-    ))}
+    {items &&
+      items.map(item => (
+        <TodoItem
+          id={item.id}
+          body={item.body}
+          isDone={item.isDone}
+          setBody={() => {}}
+        />
+      ))}
   </>
 )
 
